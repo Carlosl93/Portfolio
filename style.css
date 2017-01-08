@@ -1,11 +1,13 @@
 /*--------QUERIES---------*/
-@media(min-width: 600px){
+@media(min-width: 300px){
 	body{
 		font-size: 25px;
 	}
+}
 
-	#nameHeader{
-		visibility: hidden;
+@media(min-width: 600px){
+	body{
+		font-size: 25px;
 	}
 
 	#topics li{
@@ -67,7 +69,7 @@ header{
 #topics li{
 	text-align: center;
 
-	font-size: 0.6em;
+	font-size: 0.5em;
 
 	float:right;
 	width: 80px;
@@ -197,22 +199,22 @@ img{
 }
 
 #emailBox{
-	margin-left: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 40px;
 
 	font-size: 0.6em;
 
-	width: 36vw;
+	width: 50vw;
 
 	color: rgb(24, 33, 45);
-
-	display: inline-block;
 }
 
 .inputBox{
-
 	width: 100%;
+
 	margin-top: 10px;
+
 	border: none;
 	border-bottom: 2px solid rgb(190, 38, 51); 
 }
@@ -235,21 +237,23 @@ img{
 }
 
 #socialBox{
-	margin-left: 100px;
-	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
 
 	font-size: 0.4em;
 
-	width: 40vw;
+	width: 80vw;
+}
 
-	display: inline-block;
+.icons{
+
+	margin-left: 30%;
 }
 
 i{
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-
+	padding-left: 10px;
+	padding-right: 10px;
 	color: rgb(24, 33, 45);
 }
 
