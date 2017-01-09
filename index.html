@@ -14,116 +14,100 @@
 
 	<body>
 
-		<div class="container">
-
-			<header>
-				<p id="nameHeader"> C.L Hernandez </p>
-				<ul id="topics">
-					<li>Contact</li>
-					<li>Projects</li>	
-					<li>Skills</li>
-					<li>About</li>
-				</ul>
-			</header>
+		    <header>
+		        <div id="branding">
+		          <h1 id="nameHeader">C.L. Hernandez</h1>
+		        </div>
+		        <nav>
+		          
+		        	<div class="list"><a href="#">About</a><div>
+		            <div class="list"><a href="#">Skills</a><div>
+		            <div class="list"><a href="#">Projects</a><div>
+		            <div class="lsit"><a href="#">Contact</a><div>
+	
+		        </nav>
+		    </header>
 
 			<main>
 
 				<!-- Presentation -->
-				<div id="presentation">
-					<div id="first">
-						<div class="presentationText">Hi! I'm <span class="pink">Carlos Luis</span>.</div>
-						<div class="presentationText">A front-end <span class="pink">web developer</span>.</div>
-					</div>
-				</div>
+				<section id="presentation">
+					<h1>Hi! I'm <span class="pink">Carlos Luis</span>.</h1>
+					<h1>A front-end <span class="pink">web developer</span>.</h1>
+				</section>
 
 
 				<!-- About -->
-				<div id="about">
+				<section id="about">
 
-					<div id="aboutTitle" class="textTitle">ABOUT</div>
+					<h2>ABOUT</h2>
 
-					<div class="aboutText text">
+					<p>
 						I love to <span class="pink">code</span> and <span class="pink">design</span> websites and web applications.
-					</div>
-					<div class="aboutText text">
+					</p>
+					<p>
 						I'm a front-end web developer based on Caracas, Venezuela. I like <span class="pink">creating</span> useful and beautiful things for people, make videogames, and work with people on interesting projects.
-					</div>
-					<div class="aboutText text">
+					</p>
+					<p>
 						I have a focus on <span class="pink">minimalistic</span> designs with <span class="pink">responsive</span> layouts intuitives to the user.
-					</div>
+					</p>
 
-				</div>
+				</section>
 
 
 				<!-- Skills -->
-				<div id="skills">
-					
-					<div id="skillsTitle" class="textTitle">SKILLS</div>
-
-					<div class="skillsText text"> 
+				<section id="skills">
+					<h2>SKILLS</h2>
+					<p> 
 						Currently i'm very efficient using front-end developer languages as <span class="pink">HTML5</span>, <span class="pink">CSS3</span>, <span class="pink">Javascript</span>, <span class="pink">jQuery</span> and <span class="pink">Angular.js</span>, but my skills are constantly improving as i get new projects. 
-					</div>
-					<div class="skillsText text"> 
+					</p>
+					<p> 
 						I'm currently learning back-end technology as <span class="pink">php7</span> and <span class="pink">NODE.js</span> with data-base management on <span class="pink">mySQL</span>. 
-					</div>
-					<div class="skillsText text"> 
+					</p>
+					<p> 
 						I'm seeking work on new projects to help develop my current skills! You can <span class="pink">contact</span> me if you are interested on working with me!
-					</div>
-
-				</div>
+					</p>
+				</section>
 
 
 				<!-- Projects -->
-				<div id="projects">
-
-					<div class="textTitle">PROJECTS</div>
-
+				<section id="projects">
+					<h2>PROJECTS</h2>
 					<div class="projectBox">
 						<a href="#"> <img src="images/pomo.png"> </a>
-						<div class="projectTitle text">Pomodoro Clock</div>
 					</div>
-
 					<div class="projectBox">
 						<a href="#"> <img src="images/tic-tac.png"> </a>
-						<div class="projectTitle text">Tic-Tac-Toe</div>
-					</div>
-					
-
-				</div>	
+					</div>	
+				</section>	
 
 				<!-- Contact -->
-				<div id="contact">
+				<section id="contact">
 
-					<div class="textTitle">CONTACT</div>
+					<h2>CONTACT</h2>
 
-					<div class="text">You can message me or hit me on social networks!</div>
+					<p>You can message me or hit me on social networks!</p>
 
-					<div id="emailBox" class="center-block">
-
+					<div id="emailBox">
 						<form method="GET" action="mailto:carlosluis.43@gmail.com" enctype="text/plain">
-
 							<input class="inputBox" type="text" name="subject" placeholder="Subject">
 							<br>
 							<textarea style="height:100px" class="inputBox" name="body" placeholder="Message (max: 500 words)" maxlength="500"></textarea>
 							<br>
 							<input class="inputButton" type="submit" value="Send">
-
 						</form>	
-
 					</div>
 
 					<div id="socialBox">
-
 						<div class="icons">
 							<a href=""> <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"></i> </a>
 							<a href=""> <i class="fa fa-github fa-4x" aria-hidden="true"></i>         </a>
 							<a href=""> <i class="fa fa-twitter fa-4x" aria-hidden="true"></i> 		</a>
 							<a href=""> <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i> 		</a>
 						</div>
-						
 					</div>
 						
-				</div>
+				</section>
 
 				<footer>
 					<div> Webpage made by Carlos Luis Hernandez </div>
@@ -132,7 +116,6 @@
 			
 			</main>
 
-		</div>
 
 		<!-- SCRIPTS BOOTSTRAP JQUERY + JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
