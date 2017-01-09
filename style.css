@@ -349,6 +349,12 @@ footer{
 		line-height: 1.6em;
 	}
 
+
+	header{
+		height: 60px;
+	}
+	
+
 	#socialBox{
 		margin-top: 60px;
 
