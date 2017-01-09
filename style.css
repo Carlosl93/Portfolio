@@ -277,8 +277,8 @@ footer{
 	header nav .list{
 		margin-right: auto;
 		margin-left: auto;
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 8px;
+		padding-right: 8px;
 		display: inline-block;
 		float: none;
 	}
@@ -302,17 +302,31 @@ footer{
 	}
 
 	.icons {
-		margin-left: 14%;
+		margin-left: 16vw;
 	}
 
 	i{
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
 		color: rgb(24, 33, 45);
 	}
+}
 
+@media(max-width: 320px){
 
+	body{
+		font-size: 12px;
+	}
 
+	
+
+	#socialBox{
+		margin-top: 60px;
+
+		font-size: 0.4em;
+
+		width: 100%;
+	}
 }
 
 
