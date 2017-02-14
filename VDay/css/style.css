@@ -2,7 +2,7 @@ body{
   background-color: #342F59;
   color: #FF91CD;
   font-family: 'Amatic SC', cursive;
-  font-size: 40px;
+  font-size: 100px;
   margin: 0;
   padding: 0;
   touch-action: none;
@@ -14,7 +14,7 @@ p{
 }
 
 .container{
-  border: 2px solid #FF91CD;
+  border: 4px solid #FF91CD;
   border-radius: 10px;
   width: 98vw;
   height: 94vh;
@@ -25,15 +25,13 @@ p{
 }
 
 .heart{
-  height: 40%;
+  height: 32%;
   padding-top: 6%;
 
 }
 
 .dedicatoria{
-  font-size: 18px;
-  position:static;
-  top: 40vh;
+  font-size: 60px;
 
 }
 
