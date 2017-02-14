@@ -1,0 +1,52 @@
+body{
+  background-color: #342F59;
+  color: #FF91CD;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+}
+
+p{
+  text-shadow: 10px 10px 0px black;
+  user-select: none;
+}
+
+.container{
+  border: 2px solid #FF91CD;
+  border-radius: 10px;
+  width: 98vw;
+  height: 94vh;
+
+  margin: 1%;
+
+  text-align: center;
+}
+
+.heart{
+  height: 40%;
+  padding-top: 6%;
+
+}
+
+.dedicatoria{
+  font-size: 18px;
+  position:static;
+  top: 40vh;
+
+}
+
+.dedicatoria p{
+    text-shadow: none;
+}
+
+.letter{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.letter p{
+  text-shadow: none;
+  font-size: 0.6em;
+}
