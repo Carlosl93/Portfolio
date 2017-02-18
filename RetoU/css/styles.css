@@ -59,21 +59,19 @@ main section {
   background-color: #dddfe6;
   color: #252c41;
   border-bottom: 3px solid #252c41;
-  font-size: 2.6em;
+  font-size: 2em;
 }
 
 main section p, main section i{
   display: inline-block;
-
-
 }
 main section p{
   padding-left: 6%;
-  padding-top: 8%;
+  padding-top: 10%;
 }
 
 main section i {
   float: right;
   padding-right: 6%;
-  padding-top: 5%;
+  padding-top: 7%;
 }
