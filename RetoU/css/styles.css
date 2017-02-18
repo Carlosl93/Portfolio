@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   color: white;
+  font-size: 40px;
 }
 
 header{
@@ -14,7 +15,6 @@ header{
 header div{
   height: 220px;
   border-bottom: 2px solid #ddefe6;
-  font-size: 50px;
   color: #f1404b;
 }
 
@@ -25,10 +25,28 @@ header div p, header div img{
 
 header div img{
   width: 20%;
-  margin: 16px;
+  margin: 2%;
 }
 
 header div p{
   width: 60%;
-  font-size: 65px;
+  font-size: 1.7em;
+}
+
+header nav p{
+  color: #dddfe6;
+  display: inline-block;
+  font-size: 1.4em;
+  padding-top: 2%;
+  height: 130px;
+  text-align: center;
+}
+
+header nav p:first-child{
+  border-right: 2px solid #dddfe6;
+  width: 52%;
+}
+
+header nav p:nth-child(2){
+  width: 46%;
 }
