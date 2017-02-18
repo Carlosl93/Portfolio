@@ -75,3 +75,24 @@ main section i {
   padding-right: 6%;
   padding-top: 7%;
 }
+
+.atributo{
+  font-size: 2em;
+  color: #252c41;
+  height: 150px;
+}
+
+.atributo > *{
+  display: inline-block;
+}
+
+.atributo p:first-child{
+  width: 67%;
+  padding-top: 1%;
+  padding-left: 6%;
+}
+
+.atributo p:nth-child(2){
+  width: 20%;
+  color: #f1404b;
+}
