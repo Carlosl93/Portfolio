@@ -50,3 +50,30 @@ header nav p:first-child{
 header nav p:nth-child(2){
   width: 46%;
 }
+
+main{
+  padding-top: 350px;
+}
+main section {
+  height: 350px;
+  background-color: #dddfe6;
+  color: #252c41;
+  border-bottom: 3px solid #252c41;
+  font-size: 2.6em;
+}
+
+main section p, main section i{
+  display: inline-block;
+
+
+}
+main section p{
+  padding-left: 6%;
+  padding-top: 8%;
+}
+
+main section i {
+  float: right;
+  padding-right: 6%;
+  padding-top: 5%;
+}
