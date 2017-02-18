@@ -20,9 +20,108 @@ var medicamentos = {
       link: 'link'
     }
   ],
+  acos: [
+    {
+      nombre: 'Yaz',
+      votos: 23,
+      link: 'link'
+    },
+    {
+      nombre: 'Yasmin',
+      votos: 21,
+      link: 'link'
+    },
+    {
+      nombre: 'Melodene',
+      votos: 2,
+      link: 'link'
+    }
+  ],
+  hipogliceminantes: [
+    {
+      nombre: 'Metformina',
+      votos: 12,
+      link: 'link'
+    },
+    {
+      nombre: 'Glibenclamida',
+      votos: 4,
+      link: 'link'
+    },
+    {
+      nombre: 'Glimepidina',
+      votos: 1,
+      link: 'link'
+    }
+  ],
+  esteroides: [
+    {
+      nombre: 'Betametasona',
+      votos: 12,
+      link: 'link'
+    },
+    {
+      nombre: 'Dexametasona',
+      votos: 8,
+      link: 'link'
+    },
+    {
+      nombre: 'Prednisona',
+      votos: 2,
+      link: 'link'
+    }
+  ],
+  antihipertensivos: [
+    {
+      nombre: 'Captopril',
+      votos: 32,
+      link: 'link'
+    },
+    {
+      nombre: 'Enalapril',
+      votos: 12,
+      link: 'link'
+    },
+    {
+      nombre: 'Nifedipina',
+      votos: 9,
+      link: 'link'
+    }
+  ],
+  antiretrovirales: [
+    {
+      nombre: 'Zidovudina',
+      votos: 24,
+      link: 'link'
+    },
+    {
+      nombre: 'Abacavir',
+      votos: 18,
+      link: 'link'
+    },
+    {
+      nombre: 'Raltegravir',
+      votos: 9,
+      link: 'link'
+    }
+  ],
   antibioticos: [
-
-  ]
+    {
+      nombre: 'Amoxiclina',
+      votos: 45,
+      link: 'link'
+    },
+    {
+      nombre: 'Clavulanico',
+      votos: 34,
+      link: 'link'
+    },
+    {
+      nombre: 'Cefadroxilo',
+      votos: 28,
+      link: 'link'
+    }
+  ],
 };
 
 console.log(medicamentos['aines'].nombre);
