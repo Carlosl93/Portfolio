@@ -12,13 +12,13 @@ var medicamentos = {
     {
       nombre: 'Ibuprofeno',
       votos: 82,
-      link: 'link',
+      link: 'pages/ibuprofeno.html',
       push: true
     },
     {
       nombre: 'Naproxeno',
       votos: 69,
-      link: 'link',
+      link: 'pages/naproxeno.html',
       push: true
     }
   ],
@@ -26,19 +26,19 @@ var medicamentos = {
     {
       nombre: 'Yaz',
       votos: 23,
-      link: 'link',
+      link: 'pages/yaz.html',
       push: true
     },
     {
       nombre: 'Yasmin',
       votos: 21,
-      link: 'link',
+      link: 'pages/yasmin.html',
       push: true
     },
     {
       nombre: 'Melodene',
       votos: 2,
-      link: 'link',
+      link: 'pages/melodene.html',
       push: true
     }
   ],
@@ -46,19 +46,19 @@ var medicamentos = {
     {
       nombre: 'Metformina',
       votos: 12,
-      link: 'link',
+      link: 'pages/metformina.html',
       push: true
     },
     {
       nombre: 'Glibenclamida',
       votos: 4,
-      link: 'link',
+      link: 'pages/glibenclamida.html',
       push: true
     },
     {
       nombre: 'Glimepidina',
       votos: 1,
-      link: 'link',
+      link: 'pages/glimepirida.html',
       push: true
     }
   ],
@@ -66,19 +66,19 @@ var medicamentos = {
     {
       nombre: 'Betametasona',
       votos: 12,
-      link: 'link',
+      link: 'pages/betametasona.html',
       push: true
     },
     {
       nombre: 'Dexametasona',
       votos: 8,
-      link: 'link',
+      link: 'pages/dexametasona.html',
       push: true
     },
     {
       nombre: 'Prednisona',
       votos: 2,
-      link: 'link',
+      link: 'pages/prednisona.html',
       push: true
     }
   ],
@@ -86,18 +86,19 @@ var medicamentos = {
     {
       nombre: 'Captopril',
       votos: 32,
-      link: 'link',
+      link: 'pages/captopril.html',
       push: true
     },
     {
       nombre: 'Enalapril',
       votos: 12,
-      link: 'link'
+      link: 'pages/enalapril.html',
+      push: true
     },
     {
       nombre: 'Nifedipina',
       votos: 9,
-      link: 'link',
+      link: 'pages/nifedipina.html',
       push: true
     }
   ],
@@ -105,39 +106,39 @@ var medicamentos = {
     {
       nombre: 'Zidovudina',
       votos: 24,
-      link: 'link',
+      link: 'pages/zidovudina.html',
       push: true
     },
     {
       nombre: 'Abacavir',
       votos: 18,
-      link: 'link',
+      link: 'pages/abacavir.html',
       push: true
     },
     {
       nombre: 'Raltegravir',
       votos: 9,
-      link: 'link',
+      link: 'pages/raltegravir.html',
       push: true
     }
   ],
   antibioticos: [
     {
-      nombre: 'Amoxiclina',
+      nombre: 'Amoxicilina',
       votos: 45,
-      link: 'link',
+      link: 'pages/amoxiclina.html',
       push: true
     },
     {
       nombre: 'Clavulanico',
       votos: 34,
-      link: 'link',
+      link: 'pages/clavulanico.html',
       push: true
     },
     {
       nombre: 'Cefadroxilo',
       votos: 28,
-      link: 'link',
+      link: 'pages/cefadroxilo.html',
       push: true
     }
   ],
