@@ -5,6 +5,11 @@ body{
   font-size: 40px;
 }
 
+a:visited, a:active, a:link{
+  text-decoration: none;
+  color: #252c41;
+}
+
 header{
   position: fixed;
   background-color: #252c41;
@@ -29,8 +34,9 @@ header div img{
 }
 
 header div p{
-  width: 60%;
-  font-size: 1.7em;
+  width: 50%;
+  text-align: center;
+  font-size: 2em;
 }
 
 header nav p{
@@ -76,9 +82,13 @@ main section i {
   padding-top: 7%;
 }
 
+/*------ MEDICAMENTOS ------*/
+.medicamento{
+  color: #252c41;
+}
+/* Primer atributo -- Nombre + votos */
 .atributo{
   font-size: 2em;
-  color: #252c41;
   height: 150px;
 }
 
@@ -95,4 +105,27 @@ main section i {
 .atributo p:nth-child(2){
   width: 20%;
   color: #f1404b;
+}
+
+/* Segundo atributo -- Consigue + Empuja */
+.atributob{
+  font-size: 2em;
+  display:none;
+}
+
+.atributob a{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin-left: 6%;
+  margin-bottom: 2%;
+}
+
+.atributo a:visited, .atributo a:active, .atributo a:link{
+  text-decoration: none;
+  color: #252c41;
+}
+
+.empujaOff{
+  color: #dddfe6;
 }
