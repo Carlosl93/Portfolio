@@ -23,4 +23,55 @@ $(document).ready(function(){
       $(this).parent().find('.descripcionText').toggle("fast");
       changeIcon(this);
     });
+
+    $('.nacional').click(function(){
+      $('main').html(`
+      <section>
+        <div class="estado">
+          <p class="descripcion">Miranda</p>
+          <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+        </div>
+
+        <div class="commentsSec">
+          <div class="commentText">
+            <p class="user">Claudio</p>
+            <p class="date">21/02</p>
+            <p class="push">+12</p>
+            <div class="comment">
+              <p> En el Farmatodo de las Mercedes quedan 20 cajas!</p>
+            </div>
+          </div>
+
+          <div class="responseText">
+            <p class="user">Antonio</p>
+            <p class="date">21/02</p>
+            <p class="push">+2</p>
+            <div class="comment">
+              <p> Pase hace unos minutos y ya no habian mas</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="atributo">
+        <p class="descripcion">Vargas</p>
+        <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+      </section>
+
+      <section class="atributo">
+        <p class="descripcion">Nueva Esparta</p>
+        <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+      </section>
+
+      <section class="atributo">
+        <p class="descripcion">Zulia</p>
+        <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+      </section>`);
+    });
+
+    $(document).on('click', '.estado', function(){
+      $(this).parent().find('.commentsSec').toggle("fast");
+      changeIcon(this);
+    });
 });
