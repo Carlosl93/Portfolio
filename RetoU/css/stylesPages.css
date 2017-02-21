@@ -96,7 +96,7 @@ section p:nth-child(2){
 }
 
 .descripcionText{
-  display: block;
+  display: none;
 }
 
 /* COMENTARIOS */
