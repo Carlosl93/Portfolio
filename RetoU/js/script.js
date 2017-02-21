@@ -4,9 +4,9 @@ var canClickMedicamento = true;
 var medicamentos = {
   aines: [
     {
-      nombre: 'Atamel',
+      nombre: 'Acetaminofen',
       votos: 100,
-      link: 'link',
+      link: 'pages/atamel.html',
       push: true
     },
     {
@@ -149,8 +149,15 @@ var secc = "";
 function changeIcon(e){
 
   if($(e).find('i').hasClass('fa-angle-down')){
-    $(e).find('i').removeClass('fa-angle-down');
-    $(e).find('i').addClass('fa-angle-up');
+
+    if(canClickMedicamento){
+      $(e).find('i').removeClass('fa-angle-down');
+      $(e).find('i').addClass('fa-angle-up');
+    } else {
+      $('section').find('i').removeClass('fa-angle-up');
+      $('section').find('i').addClass('fa-angle-down');
+    }
+
   } else {
     $(e).find('i').removeClass('fa-angle-up');
     $(e).find('i').addClass('fa-angle-down');
@@ -159,18 +166,24 @@ function changeIcon(e){
 }
 function addMedicamento(e){
   if(canClickMedicamento){
+
     var nom = $(e).find('p').html().toLowerCase();
-    secc = nom;
     var nom2 = medicamentos[nom];
 
+    secc = nom;
 
     for(var i = nom2.length-1; i >= 0; i--){
       var emp = (nom2[i].push == true) ? '¡Empuja!' : '-';
-      $(e).after('<div class="medicamento"><div class="atributo"><p class="nombreM" data-index="'+i+'">'+nom2[i].nombre+'</p><p class="votos">+'+nom2[i].votos+'</p><i class="fa fa-angle-down fa-1x" aria-hidden="true"></i></div><div class="atributob"><a href="#" class="consigue">¡Consigue!</a><a href="#" class="empuja">'+ emp +'</a></div></div>');
+      $(e).after('<div class="medicamento" style="display:none"><div class="atributo"><p class="nombreM" data-index="'+i+'">'+nom2[i].nombre+'</p><p class="votos">+'+nom2[i].votos+'</p><i class="fa fa-angle-down fa-1x" aria-hidden="true"></i></div><div class="atributob"><a href="'+nom2[i].link+'" class="consigue">¡Consigue!</a><a href="#" class="empuja">'+ emp +'</a></div></div>');
     }
+    $('.medicamento').toggle('fast');
     canClickMedicamento = false;
   } else {
-    $('.medicamento').remove();
+
+    $('.medicamento').toggle('fast', function(){
+      $(this).remove();
+    })
+
     canClickMedicamento = true;
   }
 }
@@ -183,27 +196,28 @@ $(document).ready(function(){
     //Add the content
     addMedicamento(this);
   });
-});
 
-//Boton de cada medicamento
-$(document).on('click', '.medicamento', function(){
-  $(this).find('.atributob').toggle('fast');
-});
+  //Boton de cada medicamento
+  $(document).on('click', '.medicamento', function(){
+    $(this).find('.atributob').toggle('fast');
+  });
 
-//Empuje
-$(document).on('click', '.empuja', function(){
-  //var nom = $(this).parent().parent().find('.nombreM').html().toLowerCase();
-  var ind = $(this).parent().parent().find('.nombreM').data('index')
-  var nom2 = medicamentos[secc];
+  //Empuje
+  $(document).on('click', '.empuja', function(){
+    //var nom = $(this).parent().parent().find('.nombreM').html().toLowerCase();
+    var ind = $(this).parent().parent().find('.nombreM').data('index')
+    var nom2 = medicamentos[secc];
 
-  if(nom2[ind].push == true){
-    var voto = nom2[ind].votos + 1;
+    if(nom2[ind].push == true){
+      var voto = nom2[ind].votos + 1;
 
-    for(var i = 0; i < nom2.length; i++){
-      nom2[i].push = false;
+      for(var i = 0; i < nom2.length; i++){
+        nom2[i].push = false;
+      }
+      nom2[ind].votos = voto;
+      $(this).parent().parent().find('.votos').html('+'+voto);
+      $('.empuja').html('-').removeClass('empuja');
     }
-    nom2[ind].votos = voto;
-    $(this).parent().parent().find('.votos').html('+'+voto);
-    $('.empuja').html('-').removeClass('empuja');
-  }
+  });
+
 });

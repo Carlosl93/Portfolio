@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:visited, a:active, a:link{
+  text-decoration: none;
+  color: #252c41;
+}
+
+header{
+  position: fixed;
+  background-color: #252c41;
+  width: 100%;
+  height: 350px;
+}
+
+header div{
+  height: 220px;
+  border-bottom: 2px solid #ddefe6;
+  color: #f1404b;
+}
+
+header div p, header div img{
+  display: inline-block;
+  margin-top: 6%;
+}
+
+header div img{
+  width: 20%;
+  margin: 2%;
+}
+
+header div p{
+  width: 50%;
+  text-align: center;
+  font-size: 2em;
+}
+
+header nav p{
+  color: #dddfe6;
+  display: inline-block;
+  font-size: 1.4em;
+  padding-top: 2%;
+  height: 130px;
+  text-align: center;
+}
+
+header nav p:first-child{
+  border-right: 2px solid #dddfe6;
+  width: 52%;
+}
+
+header nav p:nth-child(2){
+  width: 46%;
+}
+
+header i{
+  color:#f1404b;
+  margin: 5%;
+  width: 10%;
+}
+
+main{
+  padding-top: 350px;
+  color: #252c41;
+}
+
+section{
+  margin: 5%;
+}
+
+section img{
+  text-align: center;
+  width: 100%;
+  border: 4px solid #f1404b;
+  border-radius: 30px;
+  padding-left: 20%;
+}
+
+.atributo > *{
+  display: inline-block;
+}
+
+section .descripcion, section .alternativas{
+  width: 80%;
+  margin-right: 5%;
+  font-size: 2.4em;
+}
+
+section p:nth-child(2){
+  text-align: justify;
+}
+
+.descripcionText{
+  display: none;
+}

@@ -3,6 +3,7 @@ body{
   padding: 0;
   color: white;
   font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a:visited, a:active, a:link{
