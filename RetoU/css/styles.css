@@ -84,7 +84,7 @@ main section i {
 }
 
 /*------ MEDICAMENTOS ------*/
-.medicamento, .atributo, .atributob{
+.atributo, .atributob{
   cursor: pointer;
 }
 
