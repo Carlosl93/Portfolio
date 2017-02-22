@@ -100,6 +100,10 @@ section p:nth-child(2){
 }
 
 /* COMENTARIOS */
+.estado{
+  cursor: pointer;
+}
+
 .estado > *{
   display: inline-block;
 }
