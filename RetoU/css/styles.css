@@ -84,8 +84,13 @@ main section i {
 }
 
 /*------ MEDICAMENTOS ------*/
+.medicamento, .atributo, .atributob{
+  cursor: pointer;
+}
+
 .medicamento{
   color: #252c41;
+
 }
 /* Primer atributo -- Nombre + votos */
 .atributo{

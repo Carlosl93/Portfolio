@@ -190,9 +190,6 @@ function addMedicamento(e){
 
 $(document).ready(function(){
 
-  $('.medicamento').css('cursor', 'pointer');
-  $('.empuja').css('cursor', 'pointer');
-
   //Botones de cada seccion de medicamento
   $('section').click(function(){
     //Change the icon
