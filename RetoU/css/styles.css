@@ -8,7 +8,7 @@ body{
 
 a:visited, a:active, a:link{
   text-decoration: none;
-  color: #252c41;
+  color: #f1404b;
 }
 
 header{
@@ -134,4 +134,11 @@ main section i {
 
 .empujaOff{
   color: #dddfe6;
+}
+
+.consigue, .empuja{
+  font-size: 0.8em;
+  background-color: #252c41;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px grey;
 }
