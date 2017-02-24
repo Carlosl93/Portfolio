@@ -47,7 +47,7 @@ $(document).ready(function(){
             <p class="date">21/02</p>
             <p class="push">+2</p>
             <div class="comment">
-              <p> Pase hace unos minutos y ya no habian mas</p>
+              <p> Pase hace unos minutos y ya no habían mas</p>
             </div>
           </div>
         </div>
