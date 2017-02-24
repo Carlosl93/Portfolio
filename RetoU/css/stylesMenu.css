@@ -1,0 +1,43 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #252c41;
+  padding: 0;
+  margin: 0;
+  font-size: 72px;
+}
+
+a:visited, a:active, a:link{
+  text-decoration: none;
+  color: white;
+}
+/*---- LOGO ----*/
+.logo{
+
+  width: 100vw;
+  height: 60vh;
+  text-align: center;
+}
+
+.logo img{
+  display: block;
+  width: 100vw;
+  height: 60vh;
+}
+
+.logo a{
+  font-size: 1em;
+  display: block;
+  margin-top: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  background-color: #f1404b;
+  border-radius: 20px;
+  border: 4px solid white;
+  box-shadow: 20px 20px 2px black;
+  width: 70%;
+}
+
+.links{
+  margin-top: -15%;
+}

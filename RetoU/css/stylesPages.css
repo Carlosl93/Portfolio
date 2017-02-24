@@ -137,3 +137,30 @@ section p:nth-child(2){
   margin-top: 2%;
   padding-left: 8%;
 }
+
+.donacion{
+  font-size: 1.6em;
+  border: 2px solid #f1404b;
+  border-radius: 30px;
+  padding: 3%;
+  text-align: justify;
+}
+
+.donacion span{
+  color: #f1404b;
+}
+
+.donacion p:nth-child(2){
+  text-align: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.6em;
+}
+
+.alerta{
+  text-align: center;
+  font-size: 3.5em;
+  color: #f1404b;
+  margin-top: 5%;
+}

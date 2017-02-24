@@ -70,6 +70,18 @@ $(document).ready(function(){
       </section>`);
     });
 
+    $('.internacional').click(function(){
+      $('main').html(`
+        <p class="alerta">¡Aviso!</p>
+        <section class="donacion">
+          <p>
+            El usuario <span>Alberto</span> ha dado un donativo de <span>30 unidades</span>.
+          </p>
+          <p> <span>Haz click aqui para reclamar una unidad</span> </p>
+        </section>
+        `);
+    });
+
     $(document).on('click', '.estado', function(){
       $(this).parent().find('.commentsSec').toggle("fast");
       changeIcon(this);

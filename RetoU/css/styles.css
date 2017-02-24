@@ -14,53 +14,29 @@ a:visited, a:active, a:link{
 header{
   position: fixed;
   background-color: #252c41;
+  border-bottom: 6px solid #ddefe6;
   width: 100%;
-  height: 350px;
+  height: 240px;
 }
 
 header div{
   height: 220px;
-  border-bottom: 2px solid #ddefe6;
   color: #f1404b;
 }
 
-header div p, header div img{
-  display: inline-block;
-  margin-top: 6%;
+header i {
+  margin-top: 7%;
+  margin-left: 5%;
 }
 
 header div img{
-  width: 20%;
-  margin: 2%;
-}
-
-header div p{
-  width: 100%;
-  text-align: center;
-  font-size: 2em;
-}
-
-header nav p{
-  color: #dddfe6;
-  display: inline-block;
-  font-size: 1.4em;
-  padding-top: 2%;
-  height: 130px;
-  text-align: center;
-}
-
-header nav p:first-child{
-  border-right: 2px solid #dddfe6;
-  width: 52%;
-}
-
-header nav p:nth-child(2){
-  width: 46%;
+  width: 50%;
 }
 
 main{
-  padding-top: 350px;
+  padding-top: 240px;
 }
+
 main section {
   height: 350px;
   background-color: #dddfe6;
