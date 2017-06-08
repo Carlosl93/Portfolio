@@ -1,7 +1,9 @@
 let isShow = false;
 
 $(document).ready(() => {
+
   // Click on projectBox
+  $('.projectBox').css('cursor','pointer');
   $(document).on('click', '.projectBox', (e) => {
 
     e.preventDefault();

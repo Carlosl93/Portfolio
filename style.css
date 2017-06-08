@@ -159,6 +159,7 @@ header nav div a:hover{
 	font-size: 1em;
 
 	transition: width 0.8s, height 1.2s;
+	
 	/*IOS FIX*/
 	cursor: pointer;
 }
