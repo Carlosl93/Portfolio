@@ -2,9 +2,6 @@ let isShow = false;
 
 $(document).ready(() => {
   // Click on projectBox
-  var click = document.getElementsByClassName('projectBox');
-  $('.projectBox').css('cursor','pointer');
-  $('').onclick = function () {}
   $(document).on('click', '.projectBox', (e) => {
 
     e.preventDefault();
@@ -20,7 +17,6 @@ $(document).ready(() => {
     }
 
   });
-  click.onclick = function () {}
   /*
   $('.projectBox').click( (e) => {
 
