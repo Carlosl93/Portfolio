@@ -2,7 +2,6 @@
 body{
 	color: white;
 	font-family: 'Bree Serif', serif;
-	cursor: pointer;
 }
 
 h1{
@@ -160,17 +159,17 @@ header nav div a:hover{
 	font-size: 1em;
 
 	transition: width 0.8s, height 1.2s;
+	/*IOS FIX*/
+	cursor: pointer;
 }
 
 .projectBoxActive{
 	height: 400px;
 	width: 90vw;
-	cursor: pointer;
 }
 
 .projectBoxContent{
 	display: none;
-	cursor: pointer;
 }
 
 .projectBoxContent img{
