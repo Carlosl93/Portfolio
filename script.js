@@ -2,8 +2,9 @@ let isShow = false;
 
 $(document).ready(() => {
   // Click on projectBox
+  $('.projectBox').css('cursor','pointer');
   $('.projectBox').click( (e) => {
-    
+
     $(e.target).toggleClass('projectBoxActive');
 
     if($(e.target).attr('data-isshow') == 'true'){

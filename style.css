@@ -168,17 +168,18 @@ header nav div a:hover{
 
 .projectBoxContent{
 	display: none;
-	opacity = 0;
-	transition: opacity 1s;
 }
 
 .projectBoxContent img{
+	margin: 10px;
 	width: 400px;
 }
 
 .projectBoxContent p{
 	color: white;
 	font-size: 0.6em;
+	margin: 8px;
+	padding: 5px;
 }
 
 .projectBox a:hover{
@@ -304,12 +305,12 @@ footer{
 @media(max-width: 530px){
 
 	body{
-		font-size: 20px;
+		font-size: 2.6em;
 	}
 
 	header{
 		border-bottom: 1px solid red;
-		height: 80px;
+		height: 90px;
 	}
 
 	header #branding,
@@ -327,7 +328,7 @@ footer{
 	}
 
 	header nav{
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	header nav .list{
@@ -362,16 +363,23 @@ footer{
 	}
 
 	i{
-		padding-left: 10px;
-		padding-right: 10px;
+		margin-left: -15px;
+		padding:10px;
 		color: rgb(24, 33, 45);
+	}
+
+	.projectBoxContent img{
+		width: 280px;
+	}
+	.projectBoxActive{
+		height: 360px;
 	}
 }
 
 @media(max-width: 320px){
 
 	body{
-		font-size: 12px;
+		font-size: 2em;
 	}
 
 	p{
@@ -386,7 +394,7 @@ footer{
 
 
 	header{
-		height: 60px;
+		height: 80px;
 	}
 
 
@@ -396,5 +404,14 @@ footer{
 		font-size: 0.4em;
 
 		width: 100%;
+	}
+	.projectBoxActive{
+		height: 360px;
+	}
+	.projectBoxContent p{
+		font-size: 0.8em;
+	}
+	.projectBoxContent img{
+		width: 200px;
 	}
 }

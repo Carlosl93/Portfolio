@@ -1,0 +1,140 @@
+body{
+	background-color: #fbd242;
+	font-family: 'Bungee Shade', cursive;
+
+}
+
+#title{
+	margin-top: 20px;
+	color: #da2027;
+	font-family: 'Bungee Shade', cursive;
+}
+
+#buttonContainer{
+	font-family: 'Black Ops One', cursive;
+	margin-top: 20px;
+
+}
+
+#breakBox{
+	margin-top: 10px;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 10px;
+}
+
+#pomodoroBox{
+	margin-top: 10px;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 10px;
+}
+
+
+#timer{
+	display: inline-block;
+
+	font-family: 'Black Ops One', cursive;
+
+	border: 10px solid;
+	border-color: #da2027;
+	border-radius: 200px;
+}
+
+#buttonControl{
+	margin-top: 30px;
+}
+
+.playB, .stopB{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#creator{
+	margin-top: 30px;
+	opacity: 0.4;
+	font-family: 'Black Ops One', cursive;
+	font-size: 10px;
+
+}
+
+#creator:hover{
+	opacity: 1;
+}
+
+.buttonMore:hover, .buttonLess:hover, .playB:hover, .stopB:hover{
+	cursor: pointer;
+}
+
+.buttonMore, .buttonLess{
+	color: #da2027;
+}
+
+#breakBox > div{
+	display: inline-block;
+}
+
+#pomodoroBox > div{
+	display: inline-block;
+}
+
+#buttonContainer > div{
+	display:inline-block;
+}
+
+#breakBox > #buttonMore{
+	color: blue;
+	font-size: 30px;
+}
+
+@media (min-width: 100px){
+
+	#title{
+		font-size: 30px;
+	}
+
+	#timer{
+		font-size: 40px;
+
+		margin-top: 10px;
+		padding-top: 55px;
+
+		width: 180px;
+		height: 180px;
+	}
+
+	#breakBox > div{
+		font-size: 30px;
+	}
+
+	#pomodoroBox > div{
+		font-size: 30px;
+	}
+	
+}
+
+@media (min-width: 550px){
+
+	#title{
+		font-size: 50px;
+	}
+
+	#timer{
+		font-size: 60px;
+
+		margin-top: 20px;
+		padding-top: 70px;
+
+		width: 250px;
+		height: 250px;
+	}
+
+	#breakBox > div{
+		font-size: 30px;
+	}
+
+	#pomodoroBox > div{
+		font-size: 30px;
+	}
+
+}

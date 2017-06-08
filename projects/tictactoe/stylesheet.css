@@ -1,0 +1,188 @@
+body{
+	background-color: #338f51;
+	font-family: 'Passion One', cursive;
+	color: #fbd242;
+}
+
+#creator{
+	margin-top: 10px;
+	opacity: 0.4;
+	font-size: 12px;
+}
+
+#creator:hover{
+	opacity: 1;
+}
+
+#title{
+	color: #fbd242;
+
+	margin-top: 0px;
+}
+
+#textContainer{
+	color: #fbd242;
+	font-size: 40px;
+
+	margin-top: 10%;
+
+
+}
+
+.chooseButton{
+
+	display: inline-block;
+
+	font-size: 120px;
+
+	border-radius: 10px;
+
+	padding-top:10px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+	background-color: #d81f70;
+}
+
+#gridContainer{
+	width: 400px;
+	height: 400px;
+
+	background-color: #ef529c;
+	border-radius: 10px; 
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#gridContainer > div{
+
+	color: #fbd242;
+	font-size: 140px;
+	background-color: #d81f70;
+	line-height: 130px;
+
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+	display: inline-block;
+
+	width: 120px; height: 120px;
+	vertical-align:top;
+
+	border: 1px solid #d81f70;
+}
+
+#replay{
+
+	color: #fbd242;
+
+	width: 200px;
+
+	display:block;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gridElement:hover, #replay:hover, .chooseButton:hover{
+	cursor: pointer;
+}
+
+@media (min-width: 260px){
+
+	#title{
+		font-size: 50px;
+	}
+
+	.chooseButton{
+		font-size: 40px;
+	}
+
+	#gridContainer{
+		width: 250px;
+		height: 250px;
+	}
+
+	#gridContainer > div{
+
+		font-size: 80px;
+		line-height: 80px;
+
+		padding-left: 15px;
+		margin-top: 6px;
+		margin-left: 6px;
+
+		width: 75px; height: 75px;
+	}
+
+}
+
+@media (min-width: 400px){
+
+	#title{
+		font-size: 80px;
+	}
+
+	.chooseButton{
+		font-size: 120px;
+	}
+
+	#gridContainer{
+		width: 300px;
+		height: 300px;
+	}
+
+	#gridContainer > div{
+
+		font-size: 100px;
+		line-height: 100px;
+
+		padding-left: 14px;
+		margin-top: 8px;
+		margin-left: 7px;
+
+		width: 90px; height: 90px;
+	}
+}
+
+@media (min-width: 580px){
+
+	#title{
+		font-size: 120px;
+	}
+
+	.chooseButton{
+		font-size: 120px;
+	}
+
+	#gridContainer{
+		width: 400px;
+		height: 400px;
+	}
+
+	#gridContainer > div{
+
+		font-size: 140px;
+		line-height: 130px;
+
+		padding-left: 20px;
+		margin-top: 10px;
+		margin-left: 10px;
+
+		width: 120px; height: 120px;
+	}
+}
+
+
+
+
+
+
+
+

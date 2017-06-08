@@ -1,0 +1,46 @@
+body{
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.quoteBox{
+	border: 4px solid;
+	border-color: black;
+	border-radius: 6px;
+
+	margin-top: 12%;
+	margin-bottom: 12%;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 2%;
+}
+
+#quote {
+
+	font-size: 36px;
+
+}
+
+#btnNext{
+	border: none;
+	background-color: white;
+	color: black;
+}
+
+
+.creator{
+	font-size: 12px;
+	margin-top: 60px;
+	opacity: 0.4;	
+
+}
+
+.creator:hover{
+	opacity: 1;
+}
+
+.color01{
+	color: black;
+}
