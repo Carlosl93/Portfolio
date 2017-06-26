@@ -278,11 +278,11 @@ footer {
 
 @media(max-width: 530px) {
     body {
-        font-size: 2.6em;
+        font-size: 2.5em;
     }
     header {
         border-bottom: 1px solid red;
-        height: 90px;
+        height: 80px;
     }
     header #branding,
     header nav {
@@ -296,7 +296,7 @@ footer {
         font-size: 0.4em;
     }
     header nav {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
     header nav .list {
         margin-right: auto;
@@ -335,17 +335,17 @@ footer {
 
 @media(max-width: 320px) {
     body {
-        font-size: 2em;
+        font-size: 1.9em;
     }
     p {
-        font-size: 1em;
+        font-size: 0.9em;
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
         line-height: 1.6em;
     }
     header {
-        height: 80px;
+        height: 70px;
     }
     #socialBox {
         margin-top: 60px;
