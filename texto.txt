@@ -1,0 +1,43 @@
+Soy un desarrolador web ubicado en Santiago, Chile.
+
+Inicie mis conocimientos en programacion diseñando y programando videojuegos 
+como hobby en mis ultimos dos años de carrera estudiando Ingenieria en Materiales. Ganando 
+interes en la programación, decidi aprender programacion web a traves del
+programa de autoaprendizaje de FreeCodeCamp y realizando un bootcamp en diplomado en 
+desarrollo web.
+
+Tengo un interes en el desarrollo web responsive y minimalista, donde el diseño permita al usuario
+sentirse comodo en cualquier dispositivo, es por ello que poseo interes en el conocimiento 
+de tecnologias front-end tal como AngularJS y React para lograr una experiencia de usuario optima
+e intuitiva.
+
+He realizado distintos trabajos de desarrollo web como freelance pero actualmente me 
+encuentro en la busqueda de un trabajo en un ambiente empresarial ya que de esta manera
+podre participar en proyectos de mayor escala, desarrollar mis habilidades de trabajo en equipo
+y pertenecer a un ambiente en donde pueda mejorar mis conocimientos como desarrollador. 
+
+Me motiva participar en eventos de desarrollo veloz, es por ello que me gusta participar en 
+eventos de "hackaton", en donde se atacan problemas especificos en periodos cortos de tiempo que
+llevan a los desarrolladores a usar al maximo su creatividad y sus habilidades tecnicas. Es una
+experiencia unica de la cual siempre salen buenos productos.
+------
+
+Soy un desarrolador web ubicado en Santiago, Chile.
+
+Inicie mis conocimientos en programacion diseñando y programando videojuegos, decidiendolo llevar
+un paso mas alla a traves del programa de FreeCodeCamp y realizando un diplomado en programacion web.
+
+Estoy interesado en el diseño minimalista y responsive, especificamente en que la interaccion
+del usuario con los productos sea lo mas intuitivo posible, es por ello que tengo interes en
+tecnologias front-end. 
+
+He realizado distintos trabajos freelance, ademas de proyectos personales. Actualmente 
+estoy en la busqueda de un trabajo en un ambiente empresarial para poder elevar aun mas mis 
+habilidades.
+
+Me gusta la creatividad y el empeño al cual te exponen los "hackatones" y es por ello que 
+siempre busco participar en estas experiencias. 
+------
+
+Poseo diversidad de conocimientos tanto de front como de back end, pero busco especializarme 
+en el desarrollo front-end. 

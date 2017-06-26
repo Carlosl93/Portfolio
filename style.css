@@ -1,420 +1,364 @@
-
-body{
-	color: white;
-	font-family: 'Bree Serif', serif;
+body {
+    color: white;
+    font-family: 'Bree Serif', serif;
 }
 
-h1{
-	font-size: 1.6em;
+h1 {
+    font-size: 1.6em;
 }
 
-h2{
-	border-bottom: 2px solid rgb(190, 38, 51);
-
-	color: rgb(24, 33, 45);
-
-	font-size: 2em;
-	text-align: center;
+h2 {
+    border-bottom: 2px solid rgb(190, 38, 51);
+    color: rgb(24, 33, 45);
+    font-size: 2em;
+    text-align: center;
 }
 
-p{
-	color: rgb(24, 33, 45);
-
-	font-size: 0.8em;
-
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 30px;
+p {
+    color: rgb(24, 33, 45);
+    font-size: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
-a{
-	color: white;
-	font-style: none;
+a {
+    color: white;
+    font-style: none;
 }
 
-a:hover{
-	color: white;
-	text-decoration: none;
-	background-color: rgb(190, 38, 51);
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(190, 38, 51);
 }
 
-a:visited{
-	color: white;
-	text-decoration: none;
+a:visited {
+    color: white;
+    text-decoration: none;
 }
+
+
 /*--------TOOLS---------*/
-.container{
-	width: 100%;
-	padding: 0px;
+
+.container {
+    width: 100%;
+    padding: 0px;
 }
 
-.pink{
-	padding-left: 8px;
-	padding-right: 8px;
-	color: white;
-	background-color: rgb(190, 38, 51);
+.pink {
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: rgb(190, 38, 51);
 }
+
+
 /*--------HEADER---------*/
-header{
-	background-color:rgb(24, 33, 45);
 
-	width: 100%;
-	height: 80px;
-
-	position: fixed;
+header {
+    background-color: rgb(24, 33, 45);
+    width: 100%;
+    height: 80px;
+    position: fixed;
 }
 
-header #branding{
-	font-size: 0.6em;
-	float: left;
-
-	margin-top: 5px;
-	margin-left: 5%;
+header #branding {
+    font-size: 0.6em;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5%;
 }
 
 header nav {
-	margin-top: 30px;
-	margin-right: 5%;
-
-	font-size: 0.6em;
+    margin-top: 30px;
+    margin-right: 5%;
+    font-size: 0.6em;
 }
 
-header nav div{
-	margin-left: 15px;
-	margin-right: 15px;
-
-	float:right;
+header nav div {
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
 }
 
-header nav div a:hover{
-	background-color: rgb(190, 38, 51);
+header nav div a:hover {
+    background-color: rgb(190, 38, 51);
 }
-
-
 
 
 /*--------MAIN---------*/
-#presentation{
-	background-color: rgb(24, 33, 45);
 
-	height: 100vh;
-	width: 100%;
-
-	padding-top: 35vh;
-	padding-left: 10vw;
+#presentation {
+    background-color: rgb(24, 33, 45);
+    height: 100vh;
+    width: 100%;
+    padding-top: 30vh;
+    padding-left: 10vw;
 }
 
 
 /*--------ABOUT---------*/
-#about{
-	background-color: white;
 
-	width: 100%;
-	height: 100%;
-
-	margin-bottom: 30px;
+#about {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
+
 
 /*--------SKILLS---------*/
-#skills{
-	background-color: white;
 
-	width: 100%;
-	height: 100%;
-
-	margin-bottom: 30px;
+#skills {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
+
 
 /*--------PROJECTS---------*/
-#projects{
-	background-color: white;
 
-	width: 100%;
-	height: 100%;
-	margin-bottom: 30px;
+#projects {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
 
-#projects a{
-	display: block;
+.projectBox {
+    padding-top: 0.2%;
+    margin: 0px;
+    background-color: rgb(190, 38, 51);
+    color: white;
+    margin: 12px auto 0px auto;
+    margin-top: 20px;
+    width: 60vw;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 1em;
+    transition: width 0.8s, height 1.2s;
 }
 
-.projectBox{
-	padding-top: 0.2%;
-	margin: 0px;
-
-	background-color: rgb(190, 38, 51);
-	color: white;
-
-	margin: 12px auto 0px auto;
-	margin-top: 20px;
-
-	width: 60vw;
-	height: 50px;
-
-	border: 2px solid rgb(190, 38, 51);
-	border-radius: 20px;
-
-	text-align: center;
-	text-shadow: 2px 2px black;
-	font-size: 1em;
-
-	transition: width 0.8s, height 1.2s;
-	
-	/*IOS FIX*/
-	cursor: pointer;
+.projectBoxActive {
+    height: 400px;
+    width: 90vw;
 }
 
-.projectBoxActive{
-	height: 400px;
-	width: 90vw;
+.projectBoxTitle {
+    display: block;
+    width: 100%;
+    cursor: pointer;
 }
 
-.projectBoxContent{
-	display: none;
+.projectBoxContent {
+    display: none;
 }
 
-.projectBoxContent img{
-	margin: 10px;
-	width: 400px;
+.projectBoxContent img {
+    margin: 10px;
+    width: 400px;
 }
 
-.projectBoxContent p{
-	color: white;
-	font-size: 0.6em;
-	margin: 8px;
-	padding: 5px;
+.projectBoxContent p {
+    color: white;
+    font-size: 0.6em;
+    margin: 8px;
+    padding: 5px;
 }
 
-.projectBox a:hover{
-	font-color: rgb(190, 38, 51);
+.projectBox a:hover {
+    font-color: rgb(190, 38, 51);
 }
+
 
 /*---------------------------*/
+
 
 /*--------Contact---------*/
-#contact{
-	background-color: white;
 
-	width: 100%;
-	height: 100%;
-
-	margin-bottom: 30px;
+#contact {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
 
-#emailBox{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
-
-	font-size: 0.6em;
-
-	width: 50vw;
-
-	color: rgb(24, 33, 45);
+#emailBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 0.6em;
+    width: 50vw;
+    color: rgb(24, 33, 45);
 }
 
-.inputBox{
-	width: 100%;
-
-	margin-top: 10px;
-
-	border: none;
-	border-bottom: 2px solid rgb(190, 38, 51);
+.inputBox {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(190, 38, 51);
 }
 
-.inputButton{
-	margin-top: 10px;
-	margin-right: 20px;
-
-	float: right;
-
-	border: none;
-	border-bottom: 2px solid rgb(190, 38, 51);
-
-	background-color: white;
+.inputButton {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    border: none;
+    border-bottom: 2px solid rgb(190, 38, 51);
+    background-color: white;
 }
 
-.inputButton:hover{
-	background-color: rgb(190, 38, 51);
-
+.inputButton:hover {
+    background-color: rgb(190, 38, 51);
 }
 
-#socialBox{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-
-	font-size: 0.4em;
-
-	width: 80vw;
+#socialBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 0.4em;
+    width: 80vw;
 }
 
-.icons{
-
-	margin-left: 30%;
+.icons {
+    margin-left: 30%;
 }
 
-.icons a:hover{
-		background-color: none;
+.icons a:hover {
+    background-color: none;
 }
 
-i{
-	padding-left: 10px;
-	padding-right: 10px;
-	color: rgb(24, 33, 45);
+i {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(24, 33, 45);
 }
+
 
 /*---------------------------*/
+
 
 /*--------FOOTER---------*/
-footer{
-	background-color: rgb(24, 33, 45);
 
-	text-align: center;
-
-	font-size: 0.5em;
-
-	margin-bottom: -30px;
-
-	padding-top: 10px;
-
-	width:100%;
-	height: 40px;
+footer {
+    background-color: rgb(24, 33, 45);
+    text-align: center;
+    font-size: 0.5em;
+    margin-bottom: -30px;
+    padding-top: 10px;
+    width: 100%;
+    height: 40px;
 }
+
 
 /*---------------------------*/
+
+
 /*--------QUERIES---------*/
 
-@media(min-width: 768px){
-
-	body{
-		font-size: 30px;
-	}
-	p{
-		padding-left: 12%;
-		padding-right: 12%;
-	}
-
+@media(min-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+    p {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
 }
 
-@media(max-width: 768px){
-
-	body{
-		font-size: 25px;
-	}
-
+@media(max-width: 768px) {
+    body {
+        font-size: 25px;
+    }
 }
 
-@media(max-width: 530px){
-
-	body{
-		font-size: 2.6em;
-	}
-
-	header{
-		border-bottom: 1px solid red;
-		height: 90px;
-	}
-
-	header #branding,
-	header nav{
-		float: none;
-		padding: 0;
-		margin: 0;
-
-		width: 100%;
-		text-align: center;
-	}
-
-	header #branding{
-		font-size: 0.4em;
-	}
-
-	header nav{
-		font-size: 0.8em;
-	}
-
-	header nav .list{
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 8px;
-		padding-right: 8px;
-		display: inline-block;
-		float: none;
-	}
-
-	#emailBox{
-		margin-top: 20px;
-
-		font-size: 0.6em;
-
-		width: 80vw;
-
-		color: rgb(24, 33, 45);
-	}
-
-	#socialBox{
-		margin-top: 60px;
-
-		font-size: 0.6em;
-
-		width: 100%;
-	}
-
-	.icons {
-		margin-left: 16vw;
-	}
-
-	i{
-		margin-left: -15px;
-		padding:10px;
-		color: rgb(24, 33, 45);
-	}
-
-	.projectBoxContent img{
-		width: 280px;
-	}
-	.projectBoxActive{
-		height: 360px;
-	}
+@media(max-width: 530px) {
+    body {
+        font-size: 2.6em;
+    }
+    header {
+        border-bottom: 1px solid red;
+        height: 90px;
+    }
+    header #branding,
+    header nav {
+        float: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    header #branding {
+        font-size: 0.4em;
+    }
+    header nav {
+        font-size: 0.8em;
+    }
+    header nav .list {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+        display: inline-block;
+        float: none;
+    }
+    #emailBox {
+        margin-top: 20px;
+        font-size: 0.6em;
+        width: 80vw;
+        color: rgb(24, 33, 45);
+    }
+    #socialBox {
+        margin-top: 60px;
+        font-size: 0.6em;
+        width: 100%;
+    }
+    .icons {
+        margin-left: 16vw;
+    }
+    i {
+        margin-left: -15px;
+        padding: 10px;
+        color: rgb(24, 33, 45);
+    }
+    .projectBoxContent img {
+        width: 280px;
+    }
+    .projectBoxActive {
+        height: 360px;
+    }
 }
 
-@media(max-width: 320px){
-
-	body{
-		font-size: 2em;
-	}
-
-	p{
-		font-size: 1em;
-
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-
-		line-height: 1.6em;
-	}
-
-
-	header{
-		height: 80px;
-	}
-
-
-	#socialBox{
-		margin-top: 60px;
-
-		font-size: 0.4em;
-
-		width: 100%;
-	}
-	.projectBoxActive{
-		height: 360px;
-	}
-	.projectBoxContent p{
-		font-size: 0.8em;
-	}
-	.projectBoxContent img{
-		width: 200px;
-	}
+@media(max-width: 320px) {
+    body {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 1.6em;
+    }
+    header {
+        height: 80px;
+    }
+    #socialBox {
+        margin-top: 60px;
+        font-size: 0.4em;
+        width: 100%;
+    }
+    .projectBoxActive {
+        height: 360px;
+    }
+    .projectBoxContent p {
+        font-size: 0.8em;
+    }
+    .projectBoxContent img {
+        width: 200px;
+    }
 }
